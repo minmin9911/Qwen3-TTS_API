@@ -1,0 +1,7 @@
+speakerId: 7
+name: "男性アナウンサー"
+styleName: "冷静"
+mode: "voice_design"
+modelId: "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+language: "Japanese"
+instruct: "40歳の男性アナウンサー。冷静で落ち着いた語り口。はっきりとした発音、過度な感情は抑える。"

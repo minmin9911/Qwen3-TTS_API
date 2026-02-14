@@ -1,0 +1,7 @@
+speakerId: 8
+name: "女性アナウンサー"
+styleName: "明るく元気"
+mode: "voice_design"
+modelId: "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+language: "Japanese"
+instruct: "25歳の女性アナウンサー。明るく元気で親しみやすい語り口。テンポは軽快だが聞き取りやすく。"

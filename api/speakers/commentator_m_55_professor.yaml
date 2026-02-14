@@ -1,0 +1,7 @@
+speakerId: 9
+name: "男性コメンテーター"
+styleName: "教授"
+mode: "voice_design"
+modelId: "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+language: "Japanese"
+instruct: "55歳の男性コメンテーター。教授として知的で理性的な語り口。落ち着いたテンポで論理的に話す。"

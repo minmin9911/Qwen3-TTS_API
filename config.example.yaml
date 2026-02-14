@@ -1,0 +1,5 @@
+aivis:
+  baseUrl: http://127.0.0.1:10101
+  exePath: C:\Program Files\AivisSpeech\AivisSpeech.exe
+  startupTimeoutSec: 120
+  pollIntervalSec: 1.0

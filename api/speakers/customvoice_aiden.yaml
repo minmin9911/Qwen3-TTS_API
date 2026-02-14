@@ -1,0 +1,7 @@
+speakerId: 10
+name: aiden
+styleName: custom_voice
+mode: custom_voice
+modelId: Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+language: Japanese
+speaker: aiden

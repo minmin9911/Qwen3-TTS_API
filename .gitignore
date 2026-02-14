@@ -1,0 +1,90 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.python-version
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.venv/
+.venv-*/
+venv/
+
+# Node.js
+node_modules/
+tools/cli/node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs / runtime
+logs/
+*.log
+*.pid
+
+# Root batch files (whitelist)
+/*.cmd
+!/run_qwen3_tts_api.cmd
+!/stop_qwen3_tts_api.cmd
+!/run_record_voice_clone.cmd
+!/run_test_cli.cmd
+
+# Local config / secrets
+config.yaml
+.env
+.env.*
+*.local.yaml
+*.local.json
+
+# Generated / temporary artifacts
+.tmp/
+tmp/
+backup/
+benchmark/
+experiments/
+tools/bench/
+tools/bench/results_*.csv
+experiments/bench/reports/*.json
+
+# Audio assets that may contain private voice data
+data/samples/
+api/speakers/refAudio/*
+!api/speakers/refAudio/.gitkeep
+
+# Internal docs
+documents/
+test/
+tests/
+tools/cli/test/
+
+# Speakers YAML (whitelist)
+api/speakers/*.yaml
+!api/speakers/announcer_f_25_bright.yaml
+!api/speakers/announcer_m_40_calm.yaml
+!api/speakers/commentator_m_55_professor.yaml
+!api/speakers/customvoice_aiden.yaml
+!api/speakers/customvoice_dylan.yaml
+!api/speakers/customvoice_eric.yaml
+!api/speakers/customvoice_ono_anna.yaml
+!api/speakers/customvoice_ryan.yaml
+!api/speakers/customvoice_serena.yaml
+!api/speakers/customvoice_sohee.yaml
+!api/speakers/customvoice_uncle_fu.yaml
+!api/speakers/customvoice_vivian.yaml
+
+# Keep optional examples tracked
+!.env.example

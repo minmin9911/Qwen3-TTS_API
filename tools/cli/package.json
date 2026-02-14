@@ -1,0 +1,16 @@
+{
+  "name": "qwen3-tts-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0"
+  }
+}
